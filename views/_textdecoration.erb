@@ -19,11 +19,34 @@
       
       <!-- HTML FOR ENTRY HERE -->
       <div class="style-container"> <!-- TRYING TO USE THIS DIV TO CONTAIN STYLES TO ONLY APPLY WITHIN -->
-        <!-- ENTER YOUR HTML HERE!!!!! -->
+        <p class="overline">overline</p>
+        <p class="line-through">line-through</p>
+        <p class="underline">underline</p>
+        <p class="none">default (none)</p>
+        <div class="underline">The above values are supported by all major browsers, but <span class="inherit">"inherit"</span> is not supported in IE7 and earlier. This paragraph would look a bit different in IE7 or earlier.</div>
+        <p>To get rid of the decoration on lists, you actually need to use list-style-type: none;</p>
+        <ul>
+          <li>no bullet points</li>
+          <li>no numbers</li>
+        </ul>
       </div>
       <!-- CSS FOR ENTRY HERE -->
         <style>
-         /* ENTER YOUR CSS HERE!!!!! */
+          .overline {
+            text-decoration: overline;
+          }
+          .line-through {
+            text-decoration: line-through;
+          }
+          .underline {
+            text-decoration: underline;
+          }
+          li {
+            list-style-type: none;
+          }
+          .inherit {
+            text-decoration: inherit;
+          }
         </style>
     </div>
     
@@ -32,13 +55,40 @@
       <div class="col-md-6 code"> 
         <h4> CSS </h4>
         <pre class="prettyprint"> 
-          <%=@hack.css %>
+          .overline {
+            text-decoration: overline;
+          }
+
+          .line-through {
+            text-decoration: line-through;
+          }
+
+          .underline {
+            text-decoration: underline;
+          }
+
+          li {
+            list-style-type: none;
+          }
+
+          .inherit {
+            text-decoration: inherit;
+          }
         </pre>
       </div>
       <div class="col-md-6" id="code"> 
         <h4> HTML </h4>
         <pre class="prettyprint"> 
-          <%=@hack.html_display %>
+          &lt;p class="overline">overline&lt;/p&gt;
+          &lt;p class="line-through"&gt;line-through&lt;/p&gt;
+          &lt;p class="underline"&gt;underline&lt;/p&gt;
+          &lt;p class="none"&gt;default (none)&lt;/p&gt;
+          &lt;div class="underline"&gt;The above values are supported by all major browsers, but &lt;span class="inherit"&gt;"inherit"&lt;/span&gt; is not supported in IE7 and earlier. This paragraph would look a bit different in IE7 or earlier.&lt;/div&gt;
+          &lt;p&gt;To get rid of the decoration on lists, you actually need to use list-style-type: none;&lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;no bullet points&lt;/li&gt;
+            &lt;li&gt;no numbers&lt;/li&gt;
+          &lt;/ul&gt;
         </pre>
       </div>
     </div>
