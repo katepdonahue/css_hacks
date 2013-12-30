@@ -10,24 +10,135 @@
       
       <!-- HTML FOR ENTRY HERE -->
       <div class="style-container"> <!-- TRYING TO USE THIS DIV TO CONTAIN STYLES TO ONLY APPLY WITHIN -->
-        <!-- ENTER YOUR HTML HERE!!!!! -->
+        <h3 class="square-header">None</h3>
+          <div class="square" id="none">
+              &nbsp
+          </div>
+
+          <h3 class="square-header">Rotate</h3>
+          <div class="square" id="rotate">
+              &nbsp
+          </div>
+
+          <h3 class="square-header">Skew</h3>
+          <div class="square" id="skew">
+              &nbsp
+          </div>
+
+          <h3 class="square-header">Translation</h3>
+          <div class="square" id="translate">
+              &nbsp
+          </div>
+        
       </div>
       <!-- CSS FOR ENTRY HERE -->
         <style>
-         /* ENTER YOUR CSS HERE!!!!! */
+        h3.square-header{
+          margin-right: 40px;
+        }
+
+        .square{
+          width: 140px; 
+          height: 140px; 
+          background: silver; 
+          margin: 40px;
+          float: left;
+
+        }
+
+        #none{
+           transform:none;
+           -ms-transform:none; /* IE 9 */
+          -webkit-transform:none; /* Safari and Chrome */
+        }
+
+        #rotate {
+           transform:rotate(10deg);
+           -ms-transform:rotate(10deg); /* IE 9 */
+          -webkit-transform:rotate(10deg); /* Safari and Chrome */
+
+        }
+
+        #skew{
+          transform:skew(10deg);
+          -ms-transform:skew(10deg); /* IE 9 */
+          -webkit-transform:skew(10deg); /* Safari and Chrome */
+        }
+
+        #translate{
+          transform:translate(10deg);
+          -ms-transform:translate(10deg); /* IE 9 */
+          -webkit-transform:translate(10deg); /* Safari and Chrome */
+        }
         </style>
     
     <!-- CODE TAB -->
-      <div class="col-md-6 code"> 
-        <h4> CSS </h4>
-        <pre class="prettyprint"> 
-          <!-- ENTER YOUR CSS HERE!!!!!  -->
-        </pre>
-      </div>
-      <div class="col-md-6" id="code"> 
-        <h4> HTML </h4>
-        <pre class="prettyprint"> 
-          <!-- ENTER YOUR HTML HERE!!!!! REPLACE '<' WITH '&lt;' and '<' with '&gt;' -->
+        <div class="col-md-6 code"> 
+          <h4> CSS </h4>
+          <pre class="prettyprint"> 
+            h3.square-header{
+              margin-right: 40px;
+            }
+
+            .square{
+              width: 140px; 
+              height: 140px; 
+              background: silver; 
+              margin: 40px;
+              float: left;
+
+            }
+
+            #none{
+               transform:none;
+               -ms-transform:none; /* IE 9 */
+              -webkit-transform:none; /* Safari and Chrome */
+            }
+
+            #rotate {
+               transform:rotate(10deg);
+               -ms-transform:rotate(10deg); /* IE 9 */
+              -webkit-transform:rotate(10deg); /* Safari and Chrome */
+
+            }
+
+            #skew{
+              transform:skew(10deg);
+              -ms-transform:skew(10deg); /* IE 9 */
+              -webkit-transform:skew(10deg); /* Safari and Chrome */
+            }
+
+            #translate{
+              transform:translate(10deg);
+              -ms-transform:translate(10deg); /* IE 9 */
+              -webkit-transform:translate(10deg); /* Safari and Chrome */
+            }
+
+
+          </pre>
+        </div>
+        <div class="col-md-6" id="code"> 
+          <h4> HTML </h4>
+          <pre class="prettyprint"> 
+            &lt;h3 class="square-header">None&lt;/h3>
+            &lt;div class="square" id="none">
+                &nbsp
+            &lt;/div>
+
+            &lt;h3 class="square-header"&gt;Rotate&lt;/h3&gt;
+            &lt;div class="square" id="rotate"&gt;
+                &nbsp
+            &lt;/div&gt;
+
+            &lt;h3 class="square-header"&gt;Skew&lt;/h3&gt;
+            &lt;div class="square" id="skew"&gt;
+                &nbsp
+            &lt;/div&gt;
+
+            &lt;h3 class="square-header"&gt;Translation&lt;/h3&gt;
+            &lt;div class="square" id="translate"&gt;
+                &nbsp
+            &lt;/div&gt;
         </pre>
       </div>
 
