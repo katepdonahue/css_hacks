@@ -2,7 +2,7 @@
   
   <!-- TITLE -->
   <div class="col-md-12"> 
-    <h2> Text Shadow</h2>
+    <h2> 5. Text Shadow</h2>
   </div>
 
   <!-- Nav tabs -->
@@ -24,12 +24,10 @@
           <li class="light"> Light shadow</li>
           <li class="dark"> Dark shadow</li>
           <li class="far"> Far shadow</li>
-          <li class="close"> Close shadow</li>
+          <li class="closed"> Close shadow</li>
           <li class="blurry"> Blurry shadow</li>
           <li class="color"> Colored shadow</li>
         </ul>
-      
-
       </div>
       <!-- CSS FOR ENTRY HERE -->
         <style>
@@ -53,12 +51,12 @@
           .far {
             text-shadow: 10px 11px 2px rgba(0, 0, 0, 0.3);
           }
-          .close {
+          .closed {
             text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
           }
 
           .blurry {
-            text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.3);
+            text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.4);
           }
           .color {
             text-shadow: 3px 4px 3px rgba(0, 7, 241, 0.5);
@@ -71,13 +69,54 @@
       <div class="col-md-6 code"> 
         <h4> CSS </h4>
         <pre class="prettyprint"> 
-          <%=@hack.css %>
+          ul.demo {
+            text-align: center;
+            padding: 20px;
+            font-family: 'Open Sans';
+            font-size: 30pt;
+            font-weight: 800;
+          }
+
+          ul.demo li {
+            margin: 10px;
+          }
+          .light {
+            text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
+          }
+          .dark {
+            text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.6);
+          }
+          .far {
+            text-shadow: 10px 11px 2px rgba(0, 0, 0, 0.3);
+          }
+          .closed {
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+          }
+
+          .blurry {
+            text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.4);
+          }
+          .color {
+            text-shadow: 3px 4px 3px rgba(0, 7, 241, 0.5);
+          }
         </pre>
       </div>
       <div class="col-md-6" id="code"> 
         <h4> HTML </h4>
         <pre class="prettyprint"> 
-          <%=@hack.html_display %>
+          
+
+          &lt;ul class="demo"&gt;
+            &lt;li class="normal"&gt; No shadow&lt;/li&gt;
+            &lt;li class="light"&gt; Light shadow&lt;/li&gt;
+            &lt;li class="dark"&gt; Dark shadow&lt;/li&gt;
+            &lt;li class="far"&gt; Far shadow&lt;/li&gt;
+            &lt;li class="closed"&gt; Close shadow&lt;/li&gt;
+            &lt;li class="blurry"&gt; Blurry shadow&lt;/li&gt;
+            &lt;li class="color"&gt; Colored shadow&lt;/li&gt;
+          &lt;/ul&gt;
+        
+
         </pre>
       </div>
     </div>
