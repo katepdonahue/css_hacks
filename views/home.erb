@@ -1,0 +1,25 @@
+
+      <%= simple_partial :_textalign %>
+    
+      <%= simple_partial :_textdecoration %>
+   
+      <%= simple_partial :_textindent %>
+   
+      <%= simple_partial :_textshadow %>
+   
+      <%= simple_partial :_letterwordspacing %>
+   
+      <%= simple_partial :_texttransform %>
+ 
+
+ <!-- JS FOR TABS -->
+    <script>
+      $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+      $('#myTab a[href="#hack"]').tab('show') // Select tab by name
+      $('#myTab a:first').tab('show') // Select first tab
+      $('#myTab a:last').tab('show') // Select last tab
+      $('#myTab li:eq(2) a').tab('show') // Select third tab (0-indexed)
+    </script>
