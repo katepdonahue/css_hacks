@@ -35,18 +35,6 @@ h4 {/* html, css headings*/
   border-radius: 0;
 }
 
-.new-button {
-  position: absolute;
-  right: 20px;
-  top: 8px;
-  background-color: #E0BC28;
-  border: none;
-}
-
-.new-button:hover {
-  background-color: #D1AD1D;
-}
-
 
 .container {
   margin: 0 auto 200px auto;
@@ -56,15 +44,6 @@ h4 {/* html, css headings*/
   background-color: rgba(255,255,255,0.5);
   height: 400px;
   
-}
-
-
-img.arrow {
-  width: 40%;
-}
-
-.result {
-text-align: center;
 }
 
 
