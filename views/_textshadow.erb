@@ -2,20 +2,11 @@
   
   <!-- TITLE -->
   <div class="col-md-12"> 
-    <h2> #5: Text Shadow</h2>
+    <h2>Text Shadow</h2>
   </div>
-
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs">
-    <li><a href="#hack" data-toggle="tab">Hack</a></li>
-    <li><a href="#code" data-toggle="tab">Code</a></li>
-    <!-- <li><a href="#html" data-toggle="tab">HTML</a></li> -->
-  </ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <!-- RESULTS TAB -->
-    <div class="tab-pane active" id="hack">
       
       <!-- HTML FOR ENTRY HERE -->
       <div class="style-container"> <!-- TRYING TO USE THIS DIV TO CONTAIN STYLES TO ONLY APPLY WITHIN -->
@@ -31,17 +22,6 @@
       </div>
       <!-- CSS FOR ENTRY HERE -->
         <style>
-          ul.demo {
-            text-align: center;
-            padding: 20px;
-            font-family: 'Open Sans';
-            font-size: 30pt;
-            font-weight: 800;
-          }
-
-          ul.demo li {
-            margin: 10px;
-          }
           .light {
             text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
           }
@@ -62,10 +42,8 @@
             text-shadow: 3px 4px 3px rgba(0, 7, 241, 0.5);
           }
         </style>
-    </div>
     
     <!-- CODE TAB -->
-    <div class="tab-pane" id="code">
       <div class="col-md-6 code"> 
         <h4> CSS </h4>
         <pre class="prettyprint"> 
@@ -109,21 +87,7 @@
 
         </pre>
       </div>
-      <h3> Browser Support </h3>
-      <p> </p>
-    </div>
 
   </div>
 </div>
 
-<!-- JS FOR TABS -->
-<script>
-  $('#myTab a').click(function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-  })
-  $('#myTab a[href="#hack"]').tab('show') // Select tab by name
-  $('#myTab a:first').tab('show') // Select first tab
-  $('#myTab a:last').tab('show') // Select last tab
-  $('#myTab li:eq(2) a').tab('show') // Select third tab (0-indexed)
-</script>

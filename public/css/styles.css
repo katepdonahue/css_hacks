@@ -35,22 +35,9 @@ h4 {/* html, css headings*/
   border-radius: 0;
 }
 
-.new-button {
-  position: absolute;
-  right: 20px;
-  top: 8px;
-  background-color: #E0BC28;
-  border: none;
-}
-
-.new-button:hover {
-  background-color: #D1AD1D;
-}
-
 
 .container {
-  margin: 0 auto;
-  height: 900px;
+  margin: 0 auto 200px auto;
   /*background-color: rgba(255,255,255,0.5);*/
 }
 .col-md-6 {
@@ -58,18 +45,16 @@ h4 {/* html, css headings*/
   height: 400px;
   
 }
-
-
-img.arrow {
-  width: 40%;
+ul.demo {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-size: 30pt;
+  font-weight: 800;
 }
 
-.carousel-control {
-  padding-top: 20%;
-}
-
-.result {
-text-align: center;
+ul.demo li {
+  margin: 10px;
 }
 
 
