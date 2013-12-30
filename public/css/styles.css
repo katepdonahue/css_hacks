@@ -45,6 +45,17 @@ h4 {/* html, css headings*/
   height: 400px;
   
 }
+ul.demo {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-size: 30pt;
+  font-weight: 800;
+}
+
+ul.demo li {
+  margin: 10px;
+}
 
 
 /* Pretty printing styles. Used with prettify.js. */
