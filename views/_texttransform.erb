@@ -85,42 +85,47 @@
           <h4> CSS </h4>
           <pre class="prettyprint"> 
             h5.square-header{
-              margin-right: 40px;
-            }
+          position:relative;
+          left: 130px;
+         
+        }
 
-            .square{
-              width: 140px; 
-              height: 140px; 
-              background: silver; 
-              margin: 40px;
-              float: left;
+        .square{
+          width: 140px; 
+          height: 140px; 
+          background: silver; 
+          margin: 65px;
+          float: left;
 
-            }
+        }
 
-            #none{
-               transform:none;
-               -ms-transform:none; /* IE 9 */
-              -webkit-transform:none; /* Safari and Chrome */
-            }
+        #none{
+           transform:none;
+           -ms-transform:none; /* IE 9 */
+          -webkit-transform:none; /* Safari and Chrome */
+        }
 
-            #rotate {
-               transform:rotate(10deg);
-               -ms-transform:rotate(10deg); /* IE 9 */
-              -webkit-transform:rotate(10deg); /* Safari and Chrome */
+        #rotate {
+           transform:rotate(10deg);
+           transform-origin: bottom left;
+           -ms-transform:rotate(10deg); /* IE 9 */
+          -webkit-transform:rotate(10deg); /* Safari and Chrome */
 
-            }
+        }
 
-            #skew{
-              transform:skew(10deg);
-              -ms-transform:skew(10deg); /* IE 9 */
-              -webkit-transform:skew(10deg); /* Safari and Chrome */
-            }
+        #skew{
+          transform:skew(10deg);
+          transform-origin: bottom left;
+          -ms-transform:skew(10deg); /* IE 9 */
+          -webkit-transform:skew(10deg); /* Safari and Chrome */
+        }
 
-            #translate{
-              transform:translate(10deg);
-              -ms-transform:translate(10deg); /* IE 9 */
-              -webkit-transform:translate(10deg); /* Safari and Chrome */
-            }
+        #translate{
+          transform:translate(10deg);
+          transform-origin: bottom left;
+          -ms-transform:translate(10deg); /* IE 9 */
+          -webkit-transform:translate(10deg); /* Safari and Chrome */
+        }
 
 
           </pre>
