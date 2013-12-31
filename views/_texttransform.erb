@@ -10,7 +10,8 @@
       
       <!-- HTML FOR ENTRY HERE -->
       <div class="style-container"> <!-- TRYING TO USE THIS DIV TO CONTAIN STYLES TO ONLY APPLY WITHIN -->
-        <h5 class="square-header">None</h5>
+         
+         <h5 class="square-header">None</h5>
           <div class="square" id="none">
               &nbsp
           </div>
@@ -34,7 +35,8 @@
       <!-- CSS FOR ENTRY HERE -->
         <style>
         h5.square-header{
-          padding-left: 150px;
+          position:relative;
+          left: 130px;
          
         }
 
@@ -55,6 +57,7 @@
 
         #rotate {
            transform:rotate(10deg);
+           transform-origin: bottom left;
            -ms-transform:rotate(10deg); /* IE 9 */
           -webkit-transform:rotate(10deg); /* Safari and Chrome */
 
@@ -62,12 +65,14 @@
 
         #skew{
           transform:skew(10deg);
+          transform-origin: bottom left;
           -ms-transform:skew(10deg); /* IE 9 */
           -webkit-transform:skew(10deg); /* Safari and Chrome */
         }
 
         #translate{
           transform:translate(10deg);
+          transform-origin: bottom left;
           -ms-transform:translate(10deg); /* IE 9 */
           -webkit-transform:translate(10deg); /* Safari and Chrome */
         }
@@ -148,5 +153,7 @@
 </div>
 
 <h3>Browser Support</h3>
-      <p class="browser"></p>
+      <p class="browser">
+        Chrome(Webkit), Firefox 3.5 (1.9.1) -moz and 16.0, IE 9.0 -moz and 10.0, Opera 10.5 -o and 12.10, Safari(Webkit) 3.1.
+      </p>
 
