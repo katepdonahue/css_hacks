@@ -9,7 +9,7 @@ h1 { /*logo*/
   color: gray;
   letter-spacing: 4px;
   /*position: absolute;*/
-  margin-left: 20px;
+  margin-left: 60px;
   font-size: 18pt;
   margin-bottom: 15px;
 }
@@ -24,7 +24,7 @@ h2 { /*title of entry*/
   font-weight: 100;
 }
 
-h4 {/* html, css headings*/
+h4, h3, p.browser {/* html, css headings*/
   text-align: center;
 }
 
@@ -55,6 +55,10 @@ ul.demo {
 
 ul.demo li {
   margin: 10px;
+}
+
+aside {
+  text-align: center;
 }
 
 

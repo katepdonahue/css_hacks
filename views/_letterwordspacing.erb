@@ -2,7 +2,7 @@
   
   <!-- TITLE -->
   <div class="col-md-12"> 
-    <h2>Letter / Word Spacing </h2>
+    
   </div>
 
 
@@ -11,49 +11,53 @@
       
       <!-- HTML FOR ENTRY HERE -->
       <div class="style-container"> 
-        <p class="smallest"> getting larger</p>
-        <p class="medium"> getting larger</p>
-        <p class="largest"> getting larger</p>
-        <p class="shrinking"> getting smaller</p>
+        <ul class="demo">
+          <h2>Letter Spacing</h2>
+          <li class="smallest"> getting larger</li>
+          <li class="medium"> getting larger</li>
+          <li class="largest"> getting larger</li>
+          <li class="shrinking"> getting smaller</li>
+        
 
         <!-- The word-spacing CSS property changes the inter-word space.  All modern browsers provide support for this  property. -->
-
-        <p class="shortest">never liked you much anyways</p>
-        <p class="wider">never liked you much anyways</p>
-        <p class="collapsing">oh, wait.  Changed my mind.</p>
+          <h2>Word Spacing</h2>
+          <li class="shortest">never liked you much anyways</li>
+          <li class="wider">never liked you much anyways</li>
+          
+        </ul>
       </div>
       <!-- CSS FOR ENTRY HERE -->
         <style>
          .smallest{
-            letter-spacing: 0.1em /* or px or "normal" but not %*/
+            letter-spacing: 0.1em; /* or px or "normal" but not %*/
           }
 
           .medium{
-            letter-spacing: 0.5em
+            letter-spacing: 0.5em;
           }
 
           .largest{
-            letter-spacing: 1em
+            letter-spacing: 1em;
           }
 
           .shrinking{
-            letter-spacing: -0.08em
+            letter-spacing: -0.08em;
           }
 
 
           .shortest{
-            word-spacing: 2em
+            word-spacing: 1em;
           }
 
           .wider{
-            word-spacing: 4em
+            word-spacing: 3em;
           }
 
-          .collapsing{
-            word-spacing: -1em
-          }
+          
                   </style>
-    
+      
+      <h3> Browser Support </h3>
+      <p class="browser">All modern browsers support this property.</p>
     <!-- CODE TAB -->
     <div class="col-md-6 code"> 
       <h4> CSS </h4>
