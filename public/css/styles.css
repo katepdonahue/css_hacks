@@ -24,7 +24,7 @@ h2 { /*title of entry*/
   font-weight: 100;
 }
 
-h4 {/* html, css headings*/
+h4, h3, p.browser {/* html, css headings*/
   text-align: center;
 }
 
