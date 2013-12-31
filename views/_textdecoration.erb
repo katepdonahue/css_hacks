@@ -10,17 +10,21 @@
 
       <!-- HTML FOR ENTRY HERE -->
       <div class="style-container"> <!-- TRYING TO USE THIS DIV TO CONTAIN STYLES TO ONLY APPLY WITHIN -->
-        <p class="overline">overline</p>
-        <p class="line-through">line-through</p>
-        <p class="underline">underline</p>
-        <p class="none">default (none)</p>
-        <div class="underline">The above values are supported by all major browsers, but <span class="inherit">"inherit"</span> is not supported in IE7 and earlier. This paragraph would look a bit different in IE7 or earlier.</div>
+        <ul class="demo">
+          <li class="overline">overline</li>
+          <li class="line-through">line-through</li>
+          <li class="underline">underline</li>
+          <li class="none">default (none)</li>
+      </div>
+      <aside>
         <p>To get rid of the decoration on lists, you actually need to use list-style-type: none;</p>
         <ul>
           <li>no bullet points</li>
           <li>no numbers</li>
         </ul>
-      </div>
+      </aside>
+      <h3>Browser Support:</h3>
+      <p class="browser">The above values for the text-decoration property are supported by all major browsers, but "inherit" is not supported in IE7 and earlier.</p>
       <!-- CSS FOR ENTRY HERE -->
         <style>
           .overline {
@@ -81,4 +85,5 @@
         </pre>
       </div>
 </div>
+
 
